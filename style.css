@@ -45,6 +45,7 @@ body {
 
 /* Gallery section */
 .gallery {
+	grid-template-columns: repeat(3, 1fr); 
   text-align: center;
   padding: 40px 20px;
 }
