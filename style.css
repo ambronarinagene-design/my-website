@@ -56,8 +56,6 @@ h2 {
 }
 
 .gallery img {
-  width: 50%;
-  height: 50%;
   object-fit: cover;
   border: 1px solid #ccc;
   border-radius: 5px;
