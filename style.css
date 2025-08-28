@@ -51,13 +51,13 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows:repeat(3 auto);
-  gap: 15px;
+  gap: 20px;
 }
 
 .gallery img {
   object-fit: cover;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
