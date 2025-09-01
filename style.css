@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -20,69 +19,6 @@ header {
   align-items: center;
 }
 
-
-ChatGPT
-You said:
-Example code of portfolio with the nav bar( Home About Skills Gallery Contact) with css
-ChatGPT said:
-Got it 👍 You want an example portfolio layout with a navigation bar (Home, About, Skills, Gallery, Contact) styled with CSS. Here’s a clean and simple code example:
-
-📂 File Structure
-portfolio/
- ├── index.html
- └── style.css
-index.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Navigation Bar -->
-  <header>
-    <nav class="navbar">
-      <h2 class="logo">MyPortfolio</h2>
-      <ul class="nav-links">
-        <li><a href="#home" class="active">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Sections -->
-  <section id="home" class="section">
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is the Home section.</p>
-  </section>
-
-  <section id="about" class="section">
-    <h1>About Me</h1>
-    <p>Write about yourself here.</p>
-  </section>
-
-  <section id="skills" class="section">
-    <h1>My Skills</h1>
-    <p>List your skills here.</p>
-  </section>
-
-  <section id="gallery" class="section">
-    <h1>Gallery</h1>
-    <p>Showcase your works here.</p>
-  </section>
-
-  <section id="contact" class="section">
-    <h1>Contact Me</h1>
-    <p>Write your contact details here.</p>
-  </section>
-</body>
-</html>
-style.css
 /* General Reset */
 * {
   margin: 0;
@@ -150,59 +86,12 @@ body {
 .section:nth-child(odd) {
   background: #f0f0f0;
 }
-👉 This will create a sticky navigation bar at the top, with smooth hover effects. Each section (Home, About, Skills, Gallery, Contact) will take up the full screen height.
 
-Do you want me to also add a smooth scroll effect when clicking the navbar links?
-
-You said:
-Example code of Ala home in portfolio with css 
-ChatGPT said:
-Got it 👍 You want an example "Home" section in a portfolio with CSS styling.
-Here’s a simple and modern example you can use:
-
-📂 File Structure
-portfolio/
- ├── index.html
- └── style.css
-index.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Home</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Home Section -->
-  <section id="home" class="home">
-    <div class="home-content">
-      <h1>Hello, I'm <span>Alex</span></h1>
-      <h2>Frontend Developer & Designer</h2>
-      <p>
-        I create modern, responsive websites and love bringing ideas to life
-        with clean and beautiful design.
-      </p>
-      <a href="#contact" class="btn">Contact Me</a>
-    </div>
-    <div class="home-image">
-      <img src="https://via.placeholder.com/350x350" alt="Profile">
-    </div>
-  </section>
-</body>
-</html>
-style.css
 /* General Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  color: #333;
 }
 
 /* Home Section */
