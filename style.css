@@ -5,36 +5,12 @@
 }
 
 body {
-  font-family: "Georgia", serif;
-  background: #fff; /* white background */
-  color: #111;
-}
-
-/* Navbar */
-header {
-  background: black; /* black navbar */
-  padding: 15px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* General Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body */
-body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background: #f5f5f5;
   color: #333;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -172,14 +148,12 @@ nav a:hover {
   color: hotpink; /* pink on hover */
 }
 
-/* Gallery Title */
 h2 {
   text-align: center;
   margin: 30px 0 20px;
   color: black;
 }
 
-/* Gallery Grid */
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
